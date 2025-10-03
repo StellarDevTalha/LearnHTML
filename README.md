@@ -6,5 +6,8 @@ correction of repository through terminal
 DAY 2
 HTML begginer basics
 chap # 02 Semantic Markup in HTML compelete with practice 
-startin chap # 03 LISTS
+starting chap # 03 LISTS
 Chapter 03 Lists compelete
+chap 4 links compelete
+starting chap 5 Images
+CHAPTER 05 Images Compelete
