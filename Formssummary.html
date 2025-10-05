@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forms Summary</title>
+    <title>HTML Forms - Practice and Summary</title>
 </head>
-<body style="font-family: Arial; margin: 20px;">
+<body   style="font-family: Arial; margin: 20px;">
 
     <h1>HTML Forms - Practice and Summary</h1>
-    <!-- Basic Forms -->
+
+
+                 <!-- Basic Forms -->
      <form action="#" method="post">
+
         <fieldset>
             <legend><strong>Basic Information</strong></legend>
             <legend for="fullname">Full Name:</legend>
@@ -19,18 +22,80 @@
             <label for="password">Password:</label><br>
             <input type="password" name="password" id="password"><br><br>
             <label for="age">Age:</label><br>
-            <input type="number" name="age" id="age"><br><br>
+            <input type="number" name="age" id="age" placeholder="0"><br><br>
             <label for="dob">Date of Birth:</label><br>
             <input type="date" name="dob" id="dob"><br><br>
         </fieldset>
         <br>
-        <!-- Radio Button -->
+
+
+                 <!-- Radio Button -->
          <fieldset>
             <legend><strong>Gender</strong></legend>
-            <label><input type="radio" name="radio" value="male">Male</label>
+            <label><input type="radio" name="radio" value="male" checked="checked">Male</label>
             <label><input type="radio" name="radio" value="female">Female</label>
             <label><input type="radio" name="radio" value="other">other</label>
          </fieldset>
+         <br>
+
+
+                 <!-- Checkboxes -->
+         <fieldset>
+            <legend><strong>Hobbies</strong></legend>
+            <label><input type="checkbox" name="hobby" value="reading" checked="checked">Reading</label>
+            <label><input type="checkbox" name="hobby" value="sports">Sports</label>
+            <label><input type="checkbox" name="hobby" value="music">Music</label>
+            <label><input type="checkbox" name="hobby" value="travel">Traveling</label>
+         </fieldset>
+         <br>
+
+
+                <!-- DropDown -->
+          <fieldset>
+            <legend><strong>Country</strong></legend>
+            <label for="country">Select your Country:</label>
+             <select name="country" id="country">
+                <option value="">--Select--</option>
+                <option value="pakistan" selected="selected">Pakistan</option>
+                <option value="india">India</option>
+                <option value="china">China</option>
+                <option value="uk">UK</option>
+             </select>
+          </fieldset>
+          <br>
+
+
+                 <!-- Textarea, File upload, Range and color, Hidden input,Buttons -->
+           <fieldset>
+            <legend><strong>Comments</strong></legend>
+            <label for="comments">Your message</label><br>
+            <textarea name="comments" id="comments" rows="5" cols="40" placeholder="Leave a comment.."></textarea>
+           </fieldset>
+           <br>
+
+          
+           <fieldset>
+            <legend><strong>File Upload</strong></legend>
+            <input type="file" name="fileupload">
+           </fieldset>
+           <br>
+
+
+           <fieldset>
+            <legend><strong>Preferences</strong></legend>
+            <label for="volume">Volume:</label>
+            <input type="range" name="volume" min="0" max="100"><br><br>
+            <label for="favcolor">Favorite Color:</label>
+            <input type="color" name="favcolor" id="favcolor" value="#ff0000">
+           </fieldset>
+
+
+           <fieldset>
+            <legend><strong>Actions</strong></legend>
+            <input type="reset" value="Reset Form">
+            <input type="submit" value="Submit Form">
+           </fieldset>
      </form>
+                             <!-- The End -->
 </body>
 </html>
