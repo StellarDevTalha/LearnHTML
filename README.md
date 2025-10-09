@@ -1,2 +1,2 @@
 # LearnHTML
-# HTML Learning Compelete 100%
+# HTML Learning Compeleted 100%
